@@ -1,0 +1,33 @@
+.conteiner{
+    
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    
+}
+body{
+    background: linear-gradient(90deg,#0c0cfa,#ff0000c9);
+        margin-top: 150px;
+        margin-bottom: 100px;
+        margin-left: 450px;
+        margin-right: 100px;
+        text-align: center;
+
+}
+.sol{
+    width: 70px;
+    height: 70px;
+}
+.vento{
+    width: 30px;
+}
+.localisação{
+    display: flex;
+
+}
+.localização{
+    flex-direction: column;
+}
+h2{
+    font-size: 20px;
+}
