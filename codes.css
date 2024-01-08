@@ -1,5 +1,5 @@
 .conteiner {
-  background-color: rgb(255, 251, 0);
+  background-color: whitesmoke;
   padding: 10px;
   display: flex;
   border-radius: 15px;
@@ -7,7 +7,7 @@
   gap: 15px;
   justify-content: center;
   align-items: center;
-  color: rgb(0, 110, 255);
+  color: purple
 }
 body {
   background: linear-gradient(90deg, #0c0cfa, #ff0000c9);
@@ -40,6 +40,7 @@ body {
   font-size: 30px;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 .texto-pequeno{
     font-size: 20px;
@@ -51,7 +52,11 @@ body {
 .uv{
   display: flex;
   gap: 5px;
+  justify-content: center;
 }
 .weak{
   font-size: 20px;
+}
+.vinte{
+  text-align: center;
 }
