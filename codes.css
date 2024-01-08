@@ -1,10 +1,13 @@
 .conteiner {
-  background-color: white;
+  background-color: rgb(255, 251, 0);
   padding: 10px;
   display: flex;
   border-radius: 15px;
   font-family: Arial, Helvetica, sans-serif;
   gap: 15px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 110, 255);
 }
 body {
   background: linear-gradient(90deg, #0c0cfa, #ff0000c9);
@@ -16,12 +19,12 @@ body {
   padding: 0;
 }
 .sol {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   display: flex;
 }
 .vento {
-  width: 45px;
+  width: 35px;
 }
 .localisação {
   display: flex;
@@ -34,11 +37,21 @@ body {
   margin: 0;
 }
 .texto-grande {
-  font-size: 45px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
 }
 .texto-pequeno{
-    font-size: 12px;
+    font-size: 20px;
     margin: 0;
+}
+.vento-sensacao{
+  display: flex;
+}
+.uv{
+  display: flex;
+  gap: 5px;
+}
+.weak{
+  font-size: 20px;
 }
